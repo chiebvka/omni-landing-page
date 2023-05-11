@@ -67,9 +67,9 @@ function App() {
 
 
        {   /** Hero Section */}
-       <div className="flex  lg:w-11/12 lg:mx-auto lg:mt-10 w-full  ">
-        <div className="flex flex-col lg:h-full  lg:flex-row-reverse">
-          <div className="flex lg:block  w-11/12 p-2  lg:h-full lg:mx-auto   lg:w-5/12">
+       <div className="flex  lg:w-11/12 border-2 mb-[120px] p-3 lg:mx-auto lg:mt-10 w-full  ">
+        <div className="flex flex-col lg:h-full w-full   lg:flex-row-reverse">
+          <div className="flex lg:block  w-11/12 p-2  lg:h-full lg:mx-auto  border  lg:w-5/12">
             <div className="flex relative  w-11/12 mx-auto  mt-9">
               <div className=" bg-[#feea00] rounded-tl-full rounded-bl-full rounded-br-full rounded-tr-lg mx-auto lg:ml-3 lg:w-7/12 w-8/12 ">
                 <img src={omnipeople} className="w-9/12 lg:h-[180px] object-contain mx-auto bg-transparent -mt-7 mb-0 " alt="" />
@@ -103,7 +103,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="title items-center justify-center  lg:w-7/12 w-11/12  mx-auto p-2 lg:pl-4 mt-5">
+          <div className="title items-center justify-center  lg:w-7/12 w-11/12  lg:mx-auto mx-auto p-2 lg:pl-4 mt-5">
             <h2 className="text-white p-1 lg:text-left lg:text-[60px] md:text-[55px] lg:leading-[85px] md:leading-[65px] lg:mt-9 text-2xl  lords font-bold leading-10 tracking-wider">Seamless Communication <br />  <span className="border-8 lg:mt-9 lg:p-0 my-2 px-1 rounded-tl-3xl rounded-br-3xl rounded-tr-lg border-double border-[#7f3dd2]">with OmniGPT</span> </h2>
             <h6 className="text-white p-1 lg:text-left lg:text-[30px] l lg:leading-[38px] lg:mt-9 lorde leading-8 text-lg my-2 font-medium ">Powered by Chat GPT-4</h6>
             <p className="text-white lg:text-left lg:text-[20px] l lg:leading-[27px] lg:mt-9 text-base font-sans font-thin">Experince the powert of AI Language models with OMNIgpt. Our chat platform provides seamless communixcation across multiple channels.</p>
@@ -116,7 +116,7 @@ function App() {
 
 
        {   /** Info Section */}
-        <div className=" mt-[100px] lg:w-11/12 lg:flex  lg:flex-row-reverse  p-5 mx-auto">
+        <div className=" mt-[100px]  mb-[120px]  lg:w-11/12 lg:flex  lg:flex-row-reverse  p-5 mx-auto">
           <div className="flex flex-col   lg:w-6/12 p-2 mx-auto">
             <div className="flex mx-auto w-11/12 mb-5">
               <h2 className="text-white w-full lg:text-[60px]   md:text-[45px] text-[36px] lords lg:leading-[63px]">The <span className="text-[#1FC77E]">All-in-One</span> <br /> Solution for <br /> Conversational AI  </h2>

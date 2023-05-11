@@ -30,15 +30,15 @@ function App() {
   return (
     <>
       <div className=' w-full h-full relative'>
-        <div className="flex px-2  md:w-10/12 lg:w-11/12 border-2 mt-4 md:mt-9 border-red-600 items-center mx-auto justify-between w-full">
-          <div className="w-4/12 h-14 md:h-28 md:w-3/12 border-2 border-green-600">
+        <div className="flex px-2  md:w-10/12 lg:w-11/12 mt-4 md:mt-9 items-center mx-auto justify-between w-full">
+          <div className="w-4/12 h-14 md:h-28 md:w-3/12 ">
             <img src={omnilogo} className="logo h-full w-full object-cover" alt="Vite logo" />
           </div>
-          <div className="w-4/12 md:hidden border-2 flex items-center transition ease-in duration-800 justify-end  border-green-600">
+          <div className="w-4/12 lg:hidden  flex items-center transition ease-in duration-800 justify-end  ">
             <AiOutlineMenuFold  className='text-white mr-5 transition ease-in duration-800' size={28} onClick={() => {setNavbar(true)}} />
           </div>
 
-          <div className="w-8/12 hidden border-2 md:flex items-center justify-end  border-green-600">
+          <div className="w-8/12 hidden lg:flex items-center justify-end  ">
             <ul className='flex items-center justify-between p-3'>
               <li className='text-white text-xl mx-5 p-4'><a href="#">Blog</a></li>
               <li className='text-white text-xl mx-5 p-4'><a href="#">Contact Us</a></li>
@@ -49,7 +49,7 @@ function App() {
         {navbar ? 
         <div className="fixed  top-0 z-10  w-full h-full">
           <div className="flex flex-col">
-            <div className="close border-2 border-green-500 flex transition ease-in duration-800 justify-end ">
+            <div className="close  flex transition ease-in duration-800 justify-end ">
               <MdClose className='text-white mr-7 mt-6 transition ease-in duration-800' size={30} onClick={() => {setNavbar(false)}} />
             </div>
             <div className="flex items-center justify-center my-7 py-7">
@@ -63,11 +63,14 @@ function App() {
         </div> : <></>
         }
           {/* <img src={omnilogo} className="logo" alt="Vite logo" /> */}
+
+
+
        {   /** Hero Section */}
-       <div className="flex border-2 border-white lg:w-11/12 lg:mx-auto lg:mt-10 w-full  ">
+       <div className="flex  lg:w-11/12 lg:mx-auto lg:mt-10 w-full  ">
         <div className="flex flex-col lg:h-full  lg:flex-row-reverse">
-          <div className="flex lg:block  w-11/12 p-2  lg:h-full lg:border-2 lg:border-green-600 lg:mx-auto   lg:w-5/12">
-            <div className="flex relative border-2 w-11/12 mx-auto  mt-9">
+          <div className="flex lg:block  w-11/12 p-2  lg:h-full lg:mx-auto   lg:w-5/12">
+            <div className="flex relative  w-11/12 mx-auto  mt-9">
               <div className=" bg-[#feea00] rounded-tl-full rounded-bl-full rounded-br-full rounded-tr-lg mx-auto lg:ml-3 lg:w-7/12 w-8/12 ">
                 <img src={omnipeople} className="w-9/12 lg:h-[180px] object-contain mx-auto bg-transparent -mt-7 mb-0 " alt="" />
               </div>
@@ -100,7 +103,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="title items-center justify-center lg:border-2 lg:border-red-600 lg:w-7/12 w-11/12  mx-auto p-2 lg:pl-4 mt-5">
+          <div className="title items-center justify-center  lg:w-7/12 w-11/12  mx-auto p-2 lg:pl-4 mt-5">
             <h2 className="text-white p-1 lg:text-left lg:text-[60px] md:text-[55px] lg:leading-[85px] md:leading-[65px] lg:mt-9 text-2xl  lords font-bold leading-10 tracking-wider">Seamless Communication <br />  <span className="border-8 lg:mt-9 lg:p-0 my-2 px-1 rounded-tl-3xl rounded-br-3xl rounded-tr-lg border-double border-[#7f3dd2]">with OmniGPT</span> </h2>
             <h6 className="text-white p-1 lg:text-left lg:text-[30px] l lg:leading-[38px] lg:mt-9 lorde leading-8 text-lg my-2 font-medium ">Powered by Chat GPT-4</h6>
             <p className="text-white lg:text-left lg:text-[20px] l lg:leading-[27px] lg:mt-9 text-base font-sans font-thin">Experince the powert of AI Language models with OMNIgpt. Our chat platform provides seamless communixcation across multiple channels.</p>
@@ -113,8 +116,8 @@ function App() {
 
 
        {   /** Info Section */}
-        <div className=" mt-[100px] lg:w-11/12 lg:flex  lg:flex-row-reverse  border-2 border-green-600 p-5 mx-auto">
-          <div className="flex flex-col  border-2 border-red-600 lg:w-6/12 p-2 mx-auto">
+        <div className=" mt-[100px] lg:w-11/12 lg:flex  lg:flex-row-reverse  p-5 mx-auto">
+          <div className="flex flex-col   lg:w-6/12 p-2 mx-auto">
             <div className="flex mx-auto w-11/12 mb-5">
               <h2 className="text-white w-full lg:text-[60px]   md:text-[45px] text-[36px] lords lg:leading-[63px]">The <span className="text-[#1FC77E]">All-in-One</span> <br /> Solution for <br /> Conversational AI  </h2>
             </div>
@@ -148,19 +151,11 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex border-2 mt-9 lg:mt-0 border-red-600  lg:w-6/12 p-2 mx-auto">
-            <div className="flex lg:h-[550px] md:h-[450px] w-11/12 border-2 lg:w-9/12  relative">
+          <div className="flex  mt-9 lg:mt-0   lg:w-6/12 p-2 mx-auto">
+            <div className="flex lg:h-[550px] md:h-[450px] w-11/12 lg:w-9/12  relative">
               <div className="flex w-full">
                 <img src={phone} className="w-full h-full object-contain" alt="" />
               </div>
-              {/* <div className="absolute h-[80px] md:h-[100px] w-[80px] md:w-[100px] rounded-full flex -left-2 md:left-[26%] lg:left-[31%] top-[9%] bg-white">
-                <img src={messe} className="w-8/12 mx-auto bg-transparent h-8/12 my-auto" alt="" />
-              </div>
-              <div className="absolute h-[80px] md:h-[100px] w-[80px] md:w-[100px] rounded-full -right-1  md:right-[27%] lg:right-[31%] top-[60px] bg-[#feea00]"></div>
-              <div className="absolute h-[80px] md:h-[100px] w-[80px] md:w-[100px] rounded-full -left-2 md:left-[26%] lg:left-[31%] bottom-[80px] bg-[#1fc77e]"></div>
-              <div className="absolute h-[100px]  w-[100px] rounded-full flex -right-1  md:right-[27%] lg:right-[31%] bottom-[9.1%] bg-white">
-                <img src={chat} className="w-8/12 mx-auto bg-transparent h-8/12 my-auto" alt="" />
-              </div> */}
             </div>
           </div>
      
@@ -169,9 +164,9 @@ function App() {
 
 
         {   /** Pricing Section */}
-        <div className="mt-[100px] lg:w-11/12  border-2 border-green-600 p-5 mx-auto">
+        <div className="mt-[100px] lg:w-11/12  p-5 mx-auto">
           <div className="flex flex-col md:flex-row ">
-            <div className="title w-11/12 text-center  mx-auto border-2">
+            <div className="title w-11/12 text-center  mx-auto ">
               <h2 className="text-white w-full lg:text-[60px]   md:text-[45px] text-[36px] lords lg:leading-[63px]">  <span className="text-[#1FC77E]">Accesible </span> Pricing for all users </h2>
             </div>
           </div>
@@ -324,13 +319,10 @@ function App() {
         </div>
 
 
-
-
-
         {   /** Integration Section */}
-        <div className="mt-[100px] lg:w-11/12  border-2 border-green-600 p-5 mx-auto">
+        <div className="mt-[100px] lg:w-11/12  p-5 mx-auto">
           <div className="flex flex-col md:flex-row ">
-            <div className="title w-11/12 text-center  mx-auto border-2">
+            <div className="title w-11/12 text-center  mx-auto ">
               <h2 className="text-white w-full lg:text-[60px]   md:text-[45px] text-[36px] lords lg:leading-[63px]">  <span className="text-[#1FC77E]">Integrations </span> to Boost Your Workflow </h2>
             </div>
           </div>
@@ -439,12 +431,12 @@ function App() {
 
 
         {   /** Review Section */}
-        <div className="mt-[100px] lg:w-11/12  border-2 border-green-600 p-5 mx-auto">
+        <div className="mt-[100px] lg:w-11/12  bg-transparent  p-5 mx-auto">
           <div className="flex flex-col md:flex-row ">
-            <div className="title w-full md:w-9/12 mx-auto border-2">
+            <div className="title w-full md:w-9/12 mx-auto ">
               <h2 className="text-white w-full lg:text-[60px]   md:text-[45px] text-[36px] lords lg:leading-[63px]">See What People <br /> Are <span className="text-[#1FC77E]">Saying About Us</span> </h2>
             </div>
-            <div className="md:w-3/12 w-6/12 -mt-3 mr-0 h-[80px] md:h-auto flex border-2 mx-auto">
+            <div className="md:w-3/12 w-6/12 -mt-3 mr-0 h-[80px] md:h-auto flex mx-auto">
               <div className="flex  mb-3 ">
                 <img src={star} className="w-full" alt="" />
               </div>
@@ -462,7 +454,7 @@ function App() {
               }}
               scrollbar={{ draggable: true }}
               modules={[Pagination]}
-              className="mySwiper "
+              className="mySwiper bg-transparent"
               breakpoints={{
                 0: {
                   slidesPerView: 1,
@@ -586,7 +578,7 @@ function App() {
 
 
         {   /** Newsletter Section */}
-        <div className="mt-[100px] lg:w-11/12  border-2 rounded-lg border-green-600 p-5 mx-auto">
+        <div className="mt-[100px] lg:w-11/12   rounded-lg  p-5 mx-auto">
           <div className="flex ">
             <div className="w-full justify-between flex flex-col lg:flex-row rounded-lg bg-[#05E283] p-7 lg:p-[100px]">
               <div className="title  bg-transparent">
@@ -602,31 +594,31 @@ function App() {
 
 
         {   /** Footer Section */}
-        <div className="mt-[100px] lg:w-11/12  border-2 rounded-lg border-green-600 p-5 mx-auto">
-          <div className="w-full mt-9 grid gap-6 grid-cols-2  lg:grid-cols-4 ">
-            <div className="  p-7  rounded-lg  ">
-              <img src={omnilogo} alt="" />
+        <div className="-mt-[130px] lg:w-full bg-black      p-5 mx-auto">
+          <div className="w-full mt-[110px]  grid gap-6 bg-transparent grid-cols-1 md:grid-cols-2  lg:grid-cols-4 ">
+            <div className="  p-7  bg-transparent rounded-lg  ">
+              <img src={omnilogo} className="bg-transparent" alt="" />
             </div>
-            <div className="  p-7  rounded-lg   ">
-            <p className=" my-3 uppercase text-lg  text-[#05E283]">Lorem, ipsum dolor.</p>
-              <ul className=" mt-3 p-2">
-                <li className="my-3"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
-                <li className="my-3"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
-                <li className="my-3"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
-                <li className="my-3"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
-                <li className="my-3"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
+            <div className="  p-7  bg-transparent rounded-lg   ">
+            <p className=" my-3 bg-transparent uppercase text-lg  text-[#05E283]">Lorem, ipsum dolor.</p>
+              <ul className=" bg-transparent mt-3 p-2">
+                <li className="my-3 bg-transparent"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
+                <li className="my-3 bg-transparent"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
+                <li className="my-3 bg-transparent"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
+                <li className="my-3 bg-transparent"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
+                <li className="my-3 bg-transparent"><a className=" cursor-pointer text-lg underline text-white " href="#">Lorem, ipsum.</a></li>
               </ul>
             </div>
-            <div className="  p-7  rounded-lg   ">
-              <p className=" my-3 uppercase text-lg  text-[#05E283]">Lorem, ipsum dolor.</p>
-              <ul className="  p-3">
-                <li className="my-3"><a className=" cursor-pointer text-lg underline text-white" href="#">Lorem ipsum</a></li>
-                <li className="my-3"><a className=" cursor-pointer text-lg underline text-white" href="#">Lorem ipsum</a></li>
-                <li className="my-3"><a className=" cursor-pointer text-lg underline text-white" href="#">Lorem ipsum</a></li>
+            <div className="  p-7  bg-transparent rounded-lg   ">
+              <p className=" my-3 bg-transparent uppercase text-lg  text-[#05E283]">Lorem, ipsum dolor.</p>
+              <ul className="  p-3 bg-transparent">
+                <li className="my-3 bg-transparent"><a className=" cursor-pointer text-lg underline text-white" href="#">Lorem ipsum</a></li>
+                <li className="my-3 bg-transparent"><a className=" cursor-pointer text-lg underline text-white" href="#">Lorem ipsum</a></li>
+                <li className="my-3 bg-transparent"><a className=" cursor-pointer text-lg underline text-white" href="#">Lorem ipsum</a></li>
               </ul>             </div>
-            <div className="  p-7  rounded-lg  ">
-            <p className=" my-3 uppercase text-lg  text-[#05E283]">Lorem, ipsum dolor.</p>
-              <p className=" mt-4 cursor-pointer text-lg underline text-white">Lorem Ipsum</p>
+            <div className="  p-7  bg-transparent rounded-lg  ">
+            <p className=" my-3 bg-transparent uppercase text-lg  text-[#05E283]">Lorem, ipsum dolor.</p>
+              <p className=" mt-4  bg-transparent cursor-pointer text-lg underline text-white">Lorem Ipsum</p>
             </div>
           </div>
         </div>

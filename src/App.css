@@ -1,3 +1,20 @@
 *{
     background-color: #111826;
 }
+
+.lords{
+    font-family: 'FS Meridian Trial', sans-serif;
+                                                
+}
+
+.lorde{
+    font-family: 'General Sans', sans-serif ;
+}
+.accordian{
+    background-color: #ffffff;
+    opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active{
+    margin-top: 10px!important;
+}

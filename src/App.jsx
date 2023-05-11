@@ -67,9 +67,9 @@ function App() {
 
 
        {   /** Hero Section */}
-       <div className="flex  lg:w-11/12 border-2 mb-[120px] p-3 lg:mx-auto lg:mt-10 w-full  ">
+       <div className="flex  lg:w-11/12  mb-[120px] p-3 lg:mx-auto lg:mt-10 w-full  ">
         <div className="flex flex-col lg:h-full w-full   lg:flex-row-reverse">
-          <div className="flex lg:block  w-11/12 p-2  lg:h-full lg:mx-auto  border  lg:w-5/12">
+          <div className="flex lg:block  w-11/12 p-2  lg:h-full lg:mx-auto  lg:w-5/12">
             <div className="flex relative  w-11/12 mx-auto  mt-9">
               <div className=" bg-[#feea00] rounded-tl-full rounded-bl-full rounded-br-full rounded-tr-lg mx-auto lg:ml-3 lg:w-7/12 w-8/12 ">
                 <img src={omnipeople} className="w-9/12 lg:h-[180px] object-contain mx-auto bg-transparent -mt-7 mb-0 " alt="" />

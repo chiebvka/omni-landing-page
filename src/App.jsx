@@ -106,7 +106,7 @@ function App() {
           <div className="title items-center justify-center  lg:w-7/12 w-11/12  lg:mx-auto mx-auto p-2 lg:pl-4 mt-5">
             <h2 className="text-white p-1 lg:text-left lg:text-[60px] md:text-[55px] lg:leading-[85px] md:leading-[65px] lg:mt-9 text-2xl  lords font-bold leading-10 tracking-wider">Seamless Communication <br />  <span className="border-8 lg:mt-9 lg:p-0 my-2 px-1 rounded-tl-3xl rounded-br-3xl rounded-tr-lg border-double border-[#7f3dd2]">with OmniGPT</span> </h2>
             <h6 className="text-white p-1 lg:text-left lg:text-[30px] l lg:leading-[38px] lg:mt-9 lorde leading-8 text-lg my-2 font-medium ">Powered by Chat GPT-4</h6>
-            <p className="text-white lg:text-left lg:text-[20px] l lg:leading-[27px] lg:mt-9 text-base font-sans font-thin">Experince the powert of AI Language models with OMNIgpt. Our chat platform provides seamless communixcation across multiple channels.</p>
+            <p className="text-white lg:text-left lg:text-[20px] l lg:leading-[27px] lg:mt-9 text-base font-sans font-thin">Experince the power of AI Language models with OMNIgpt. Our chat platform provides seamless communication across multiple channels.</p>
             <p className="text-white lg:text-left lg:text-[20px] l lg:leading-[38px] lg:mt-9 text-base lorde font-medium my-3">Try the OMNIgpt for free. 15-day trial, no credit card required.</p>
             <button className="rounded flex  text-white bg-[#1FC77E] font-normal text-center p-2">Start your free trial</button>
           </div>
@@ -389,7 +389,7 @@ function App() {
                   <p className="bg-transparent text-black font-bold  text-[25px]  ml-3 rounded-lg ">Jira</p>
                 </div>
                 <div className="flex   justify-center bg-transparent">
-                    <p className="bg-transparent text-black font-extralight  text-[15px]  my-2  rounded-lg ">Connect OmniGPT with Jira and automate your team&apos;s workflow to imporve effcicncy and productivity</p>
+                    <p className="bg-transparent text-black font-extralight  text-[15px]  my-2  rounded-lg ">Connect OmniGPT with Jira and automate your team&apos;s workflow to improve efficiency and productivity</p>
                   </div>
               </div>
             </div>
@@ -411,7 +411,7 @@ function App() {
                   <p className="bg-transparent text-black font-bold  text-[25px]  ml-3 rounded-lg ">Notion</p>
                 </div>
                 <div className="flex   justify-center bg-transparent">
-                    <p className="bg-transparent text-black font-extralight  text-[15px]  my-2  rounded-lg ">Integrate OmniGPT with Notion to autoimate your workflow and collaborate with your team more effectively</p>
+                    <p className="bg-transparent text-black font-extralight  text-[15px]  my-2  rounded-lg ">Integrate OmniGPT with Notion to automate your workflow and collaborate with your team more effectively</p>
                   </div>
               </div>
             </div>
@@ -483,7 +483,7 @@ function App() {
                     <h2 className="bg-transparent text-[16px] text-white text-justify">OmniGPT has completely <br /> transformed the way my team works together. </h2>
                   </div>
                   <div className="content bg-transparent my-2 p-2 flex items-start">
-                    <p className="bg-transparent flex text-justify text-[14px] text-white font-light "> "With the ability to seamlessly communicate across multiple channels, we are able to to collaborate in real-time and make decisions faster than ever. Plus, the AI-poered chatbot saves us time and resources by handling routine tasks and inquiries. I would highly recommend OmniGPT to any organization looking to impose their productivity and efficincy"</p>
+                    <p className="bg-transparent flex text-justify text-[14px] text-white font-light "> "With the ability to seamlessly communicate across multiple channels, we are able to to collaborate in real-time and make decisions faster than ever. Plus, the AI-powered chatbot saves us time and resources by handling routine tasks and inquiries. I would highly recommend OmniGPT to any organization looking to impose their productivity and efficiency"</p>
                   </div>
                   <div className="person p-2 flex bg-transparent">
                     <div className="image bg-transparent w-[50px] h-[50px] ">
@@ -508,7 +508,7 @@ function App() {
                     <h2 className="bg-transparent text-[16px] text-white text-justify">OmniGPT has completely <br /> transformed the way my team works together. </h2>
                   </div>
                   <div className="content bg-transparent my-2 p-2 flex items-start">
-                    <p className="bg-transparent flex text-justify text-[14px] text-white font-light "> "With the ability to seamlessly communicate across multiple channels, we are able to to collaborate in real-time and make decisions faster than ever. Plus, the AI-poered chatbot saves us time and resources by handling routine tasks and inquiries. I would highly recommend OmniGPT to any organization looking to impose their productivity and efficincy"</p>
+                    <p className="bg-transparent flex text-justify text-[14px] text-white font-light "> "With the ability to seamlessly communicate across multiple channels, we are able to to collaborate in real-time and make decisions faster than ever. Plus, the AI-powered chatbot saves us time and resources by handling routine tasks and inquiries. I would highly recommend OmniGPT to any organization looking to impose their productivity and efficiency"</p>
                   </div>
                   <div className="person p-2 flex bg-transparent">
                     <div className="image bg-transparent w-[50px] h-[50px] ">
@@ -533,7 +533,7 @@ function App() {
                     <h2 className="bg-transparent text-[16px] text-white text-justify">OmniGPT has completely <br /> transformed the way my team works together. </h2>
                   </div>
                   <div className="content bg-transparent my-2 p-2 flex items-start">
-                    <p className="bg-transparent flex text-justify text-[14px] text-white font-light "> "With the ability to seamlessly communicate across multiple channels, we are able to to collaborate in real-time and make decisions faster than ever. Plus, the AI-poered chatbot saves us time and resources by handling routine tasks and inquiries. I would highly recommend OmniGPT to any organization looking to impose their productivity and efficincy"</p>
+                    <p className="bg-transparent flex text-justify text-[14px] text-white font-light "> "With the ability to seamlessly communicate across multiple channels, we are able to to collaborate in real-time and make decisions faster than ever. Plus, the AI-powered chatbot saves us time and resources by handling routine tasks and inquiries. I would highly recommend OmniGPT to any organization looking to impose their productivity and efficiency"</p>
                   </div>
                   <div className="person p-2 flex bg-transparent">
                     <div className="image bg-transparent w-[50px] h-[50px] ">
@@ -558,7 +558,7 @@ function App() {
                     <h2 className="bg-transparent text-[16px] text-white text-justify">OmniGPT has completely <br /> transformed the way my team works together. </h2>
                   </div>
                   <div className="content bg-transparent my-2 p-2 flex items-start">
-                    <p className="bg-transparent flex text-justify text-[14px] text-white font-light "> "With the ability to seamlessly communicate across multiple channels, we are able to to collaborate in real-time and make decisions faster than ever. Plus, the AI-poered chatbot saves us time and resources by handling routine tasks and inquiries. I would highly recommend OmniGPT to any organization looking to impose their productivity and efficincy"</p>
+                    <p className="bg-transparent flex text-justify text-[14px] text-white font-light "> "With the ability to seamlessly communicate across multiple channels, we are able to to collaborate in real-time and make decisions faster than ever. Plus, the AI-powered chatbot saves us time and resources by handling routine tasks and inquiries. I would highly recommend OmniGPT to any organization looking to impose their productivity and efficiency"</p>
                   </div>
                   <div className="person p-2 flex bg-transparent">
                     <div className="image bg-transparent w-[50px] h-[50px] ">
